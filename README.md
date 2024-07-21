@@ -57,7 +57,7 @@ python main-4ary.py --dataset WikiPeople-4 --batch_size 384 --lr 0.00021 --dr 0.
 #### 1. Mixed Arity Knowledge Hypergraph
 ```
 ## JF17K dataset
-python main-JF.py --dataset JF17K --batch_size 512 --lr 0.00086 --dr 0.993 --input_drop 0.3 --hidden_drop 0.9 --feature_drop 0.2 --k_size 4 --k_sizeN 1 --dil_sizeN 2 --lamda 0.5
+python main-JF.py --dataset JF17K --batch_size 512 --lr 0.00086 --dr 0.993 --input_drop 0.1 --hidden_drop 0.9 --feature_drop 0.2 --k_size 2 --k_sizeN 5 --dil_sizeN 5 --lamda 0.9
 
 ## WikiPeople dataset
 python main-WP.py --dataset WikiPeople --batch_size 512 --lr 0.00083 --dr 0.999 --input_drop 0.0 --hidden_drop 0.5 --feature_drop 0.8 --k_size 1 --k_sizeN 1 --dil_sizeN 5 --lamda 0.5
