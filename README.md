@@ -88,7 +88,7 @@ python main-4ary.py --dataset WikiPeople-4 --batch_size 128 --lr 0.00077 --dr 0.
 To reproduce the results of the paper, `torch.backends.cudnn.deterministic=True` in `main.py`.
 
 However, due to problems with the Pytorch framework, this can seriously affect the speed of running the code. If you want to get faster, set `torch.backends.cudnn.deterministic=False` in `main.py`. Of course, this can cause inconsistencies in the results of each model run.
-For example, in our open source code, `torch.backend .cudn .deterministic=False` is set by default on the `HySAE-E:JF17K` and `HySAE-E:WikiPeople` datasets to obtain the corresponding performance hyperparameters.
+For example, in our open source code, `torch.backend.cudn.deterministic=False` is set by default on the `HySAE-E:JF17K` and `HySAE-E:WikiPeople` datasets to obtain the corresponding performance hyperparameters.
 
 
 
