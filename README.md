@@ -44,6 +44,12 @@ python main-3ary.py --dataset WikiPeople-3 --batch_size 512 --lr 0.00094 --dr 0.
 
 ## WikiPeople-4 dataset
 python main-4ary.py --dataset WikiPeople-4 --batch_size 384 --lr 0.00021 --dr 0.997 --input_drop 0.7 --hidden_drop 0.3 --feature_drop 0.6 --k_size 1 --dil_size 2
+
+## JF17K-5 dataset
+python main-5ary.py --dataset WikiPeople-4 --batch_size 384 --lr 0.00072 --dr 0.999 --input_drop 0.0 --hidden_drop 0.6 --feature_drop 0.7 --k_size 1 --dil_size 2
+
+## WikiPeople-5 dataset
+python main-5ary.py --dataset WikiPeople-4 --batch_size 64 --lr 0.00082 --dr 0.979 --input_drop 0.9 --hidden_drop 0.6 --feature_drop 0.0 --k_size 3 --dil_size 5
 ```
 
 
