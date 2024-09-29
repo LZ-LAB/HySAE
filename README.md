@@ -33,23 +33,17 @@ python main-FB.py --dataset FB-AUTO --batch_size 64 --lr 0.00049 --dr 0.979 --in
 
 #### 2. Fixed Arity Knowledge Hypergraph
 ```
-## JF17K-3 dataset
-python main-3ary.py --dataset JF17K-3 --batch_size 128 --lr 0.00042 --dr 0.999 --input_drop 0.0 --hidden_drop 0.1 --feature_drop 0.4 --k_size 7 --dil_size 3
+## WikiPeople-3 dataset
+python main-3ary.py --dataset WikiPeople-3 --batch_size 512 --lr 0.00094 --dr 0.967 --input_drop 0.5 --hidden_drop 0.6 --feature_drop 0.4 --k_size 1 --dil_size 2
 
 ## JF17K-4 dataset
 python main-4ary.py --dataset JF17K-4 --batch_size 128 --lr 0.00040 --dr 0.980 --input_drop 0.4 --hidden_drop 0.5 --feature_drop 0.5 --k_size 3 --dil_size 1
-
-## WikiPeople-3 dataset
-python main-3ary.py --dataset WikiPeople-3 --batch_size 512 --lr 0.00094 --dr 0.967 --input_drop 0.5 --hidden_drop 0.6 --feature_drop 0.4 --k_size 1 --dil_size 2
 
 ## WikiPeople-4 dataset
 python main-4ary.py --dataset WikiPeople-4 --batch_size 384 --lr 0.00021 --dr 0.997 --input_drop 0.7 --hidden_drop 0.3 --feature_drop 0.6 --k_size 1 --dil_size 2
 
 ## JF17K-5 dataset
-python main-5ary.py --dataset WikiPeople-4 --batch_size 384 --lr 0.00072 --dr 0.999 --input_drop 0.0 --hidden_drop 0.6 --feature_drop 0.7 --k_size 1 --dil_size 2
-
-## WikiPeople-5 dataset
-python main-5ary.py --dataset WikiPeople-4 --batch_size 64 --lr 0.00082 --dr 0.979 --input_drop 0.9 --hidden_drop 0.6 --feature_drop 0.0 --k_size 3 --dil_size 5
+python main-5ary.py --dataset JF17K-5 --batch_size 384 --lr 0.00072 --dr 0.999 --input_drop 0.0 --hidden_drop 0.6 --feature_drop 0.7 --k_size 1 --dil_size 2
 ```
 
 
@@ -76,17 +70,17 @@ python main-FB.py --dataset FB-AUTO --batch_size 64 --lr 0.00050 --dr 0.988 --in
 
 #### 2. Fixed Arity Knowledge Hypergraph
 ```
-## JF17K-3 dataset
-python main-3ary.py --dataset JF17K-3 --batch_size 64 --lr 0.00039 --dr 0.990 --input_drop 0.1 --hidden_drop 0.1 --feature_drop 0.1 --k_size 1 --k_sizeN 7 --dil_sizeN 4 --lamda 0.9
+## WikiPeople-3 dataset
+python main-3ary.py --dataset WikiPeople-3 --batch_size 64 --lr 0.00083 --dr 0.967 --input_drop 0.8 --hidden_drop 0.6 --feature_drop 0.2 --k_size 7 --k_sizeN 4 --dil_sizeN 5 --lamda 0.1
 
 ## JF17K-4 dataset
 python main-4ary.py --dataset JF17K-4 --batch_size 256 --lr 0.00074 --dr 0.972 --input_drop 0.7 --hidden_drop 0.4 --feature_drop 0.2 --k_size 7 --k_sizeN 2 --dil_sizeN 5 --lamda 0.9
 
-## WikiPeople-3 dataset
-python main-3ary.py --dataset WikiPeople-3 --batch_size 64 --lr 0.00083 --dr 0.967 --input_drop 0.8 --hidden_drop 0.6 --feature_drop 0.2 --k_size 7 --k_sizeN 4 --dil_sizeN 5 --lamda 0.1
-
 ## WikiPeople-4 dataset
 python main-4ary.py --dataset WikiPeople-4 --batch_size 128 --lr 0.00077 --dr 0.972 --input_drop 0.6 --hidden_drop 0.7 --feature_drop 0.6 --k_size 6 --k_sizeN 4 --dil_sizeN 3 --lamda 0.8
+
+## JF17K-5 dataset
+python main-5ary.py --dataset JF17K-5 --batch_size 256 --lr 0.00074 --dr 0.972 --input_drop 0.7 --hidden_drop 0.4 --feature_drop 0.2 --k_size 7 --k_sizeN 2 --dil_sizeN 5 --lamda 0.9
 ```
 
 
