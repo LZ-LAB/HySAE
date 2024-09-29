@@ -80,7 +80,7 @@ python main-4ary.py --dataset JF17K-4 --batch_size 256 --lr 0.00074 --dr 0.972 -
 python main-4ary.py --dataset WikiPeople-4 --batch_size 128 --lr 0.00077 --dr 0.972 --input_drop 0.6 --hidden_drop 0.7 --feature_drop 0.6 --k_size 6 --k_sizeN 4 --dil_sizeN 3 --lamda 0.8
 
 ## JF17K-5 dataset
-python main-5ary.py --dataset JF17K-5 --batch_size 256 --lr 0.00074 --dr 0.972 --input_drop 0.7 --hidden_drop 0.4 --feature_drop 0.2 --k_size 7 --k_sizeN 2 --dil_sizeN 5 --lamda 0.9
+python main-5ary.py --dataset JF17K-5 --batch_size 512 --lr 0.00082 --dr 0.996 --input_drop 0.0 --hidden_drop 0.3 --feature_drop 0.9 --k_size 2 --k_sizeN 4 --dil_sizeN 4 --lamda 0.2
 ```
 
 
