@@ -1,5 +1,5 @@
 # The HySAE Model
-This paper has been submitted to the IEEE ICDE 2025.
+This paper has been submitted to The Web Conference 2025 (WWW 2025).
 
 
 
