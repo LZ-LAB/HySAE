@@ -85,11 +85,12 @@ python main-5ary.py --dataset JF17K-5 --batch_size 512 --lr 0.00082 --dr 0.996 -
 
 
 ## Supplementary Note
-To reproduce the results of the paper, `torch.backends.cudnn.deterministic=True` in `main.py`.
+To reproduce the results of the paper exactly, `torch.backends.cudnn.deterministic=True` in `main.py`.
 
-However, due to problems with the Pytorch framework, this can seriously affect the speed of running the code. If you want to get faster, set `torch.backends.cudnn.deterministic=False` in `main.py`. Of course, this can cause inconsistencies in the results of each model run.
-For example, in our open source code, `torch.backend.cudn.deterministic=False` is set by default on the `HySAE-E:JF17K` and `HySAE-E:WikiPeople` datasets to obtain the corresponding performance hyperparameters.
+However, due to problems with different versions of the Pytorch framework, this could seriously affect the speed of running the code.
+If you encounter this problem, you can set `torch.backends.cudnn.deterministic=False` in `main.py` and it will restore the normal speed of our code.
 
+Of course, this may lead to inconsistent results from each model run, but it will not affect the conclusions of the experiment. For example, in our open source code, `torch.backend.cudn.deterministic=False` is set by default on the `HySAE-E:JF17K` and `HySAE-E:WikiPeople` datasets to obtain the corresponding performance hyperparameters.
 
 
 
