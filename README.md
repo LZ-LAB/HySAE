@@ -155,41 +155,6 @@ We are very grateful for all open-source baseline models:
 
 
 # Experimental Comparison
-## Model Efficiency
-
-### **1. Model Parameters**
-|  |               |               |               |
-|-------|--------------------|---------------|---------------|
-|   **Parameters (Millions)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
-| HyConvE   |    12.80           |      21.44       |    4.80       |
-| HJE       |        12.80          |    21.44     |      4.80     |
-| HySAE     |       **1.38**       |     **2.34**    |    **1.06**   |
-
-
-
-### **2. Memory Usage**
-|  |               |               |               |
-|-------|--------------------|---------------|---------------|
-|   **Memory Usage (MB)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
-| HyConvE   |    7718           |      15430       |    3032       |
-| HJE       |      3322           |    4128     |      2470     |
-| HySAE     |       **2712**           |     **3424**          |      **1692**    |
-
-
-
-
-### **3. Time Usage**
-|  |               |               |               |
-|-------|--------------------|---------------|---------------|
-|   **Time Usage (seconds)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
-| HyConvE   |     98.7           |      247.3         |    4.9       |
-| HJE       |       15.5          |    74.5     |   3.7      |
-| HySAE     |       **10.1**           |     **34.1**          |      **2.2**         |
-
-
-
-
-
 ## Mixed Arity Knowledge Hypergraph
 
 
@@ -379,3 +344,64 @@ We are very grateful for all open-source baseline models:
 | HyConvE |     0.275       |    0.187       |    0.281     |     0.470      |
 | HJE     |     0.233       |    0.163       |    0.248     |     0.387      |
 | HySAE   |     0.313       |    0.200       |    0.345     |     0.558      |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Model Efficiency
+
+### **1. Model Parameters**
+|  |               |               |               |
+|-------|--------------------|---------------|---------------|
+|   **Parameters (Millions)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
+| HyConvE   |    12.80           |      21.44       |    4.80       |
+| HJE       |        12.80          |    21.44     |      4.80     |
+| HySAE     |       **1.38**       |     **2.34**    |    **1.06**   |
+
+
+
+### **2. Memory Usage**
+|  |               |               |               |
+|-------|--------------------|---------------|---------------|
+|   **Memory Usage (MB)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
+| HyConvE   |    7718           |      15430       |    3032       |
+| HJE       |      3322           |    4128     |      2470     |
+| HySAE     |       **2712**           |     **3424**          |      **1692**    |
+
+
+
+
+### **3. Time Usage**
+|  |               |               |               |
+|-------|--------------------|---------------|---------------|
+|   **Time Usage (seconds)**    | **JF17K** | **WikiPeople** | **FB-AUTO** |
+| HyConvE   |     98.7           |      247.3         |    4.9       |
+| HJE       |       15.5          |    74.5     |   3.7      |
+| HySAE     |       **10.1**           |     **34.1**          |      **2.2**         |
+
+
+
+
+
+
+
+
+
+
+
