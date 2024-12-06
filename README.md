@@ -155,6 +155,7 @@ We are very grateful for all open-source baseline models:
 
 
 # Experimental Comparison
+## ***Model Efficiency**
 ### **1. Model Parameters**
 | | | | |
 |-|-|-|-|
@@ -185,7 +186,7 @@ We are very grateful for all open-source baseline models:
 ### **1. JF17K**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.580|0.478|0.610|0.729|
 |HJE|0.582|0.507|0.615|0.730|
 |Ours|**0.596**|**0.521**|**0.628**|**0.742**|
@@ -193,7 +194,7 @@ We are very grateful for all open-source baseline models:
 #### **2. WikiPeople**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.362|0.275|0.388|0.501|
 |HJE|0.444|0.368|0.485|0.577|
 |Ours|**0.454**|**0.373**|**0.496**|**0.603**|
@@ -201,7 +202,7 @@ We are very grateful for all open-source baseline models:
 #### **3. FB-AUTO**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.847|0.820|0.872|0.901|
 |HJE|0.871|0.849|0.883|0.909|
 |Ours|**0.893**|**0.876**|**0.904**|**0.926**|
@@ -212,7 +213,7 @@ We are very grateful for all open-source baseline models:
 ### **1. WikiPeople-3**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.320|0.257|0.389|0.498|
 |HJE|0.373|0.279|0.403|0.528|
 |Ours|**0.389**|**0.297**|**0.420**|**0.578**|
@@ -220,7 +221,7 @@ We are very grateful for all open-source baseline models:
 ### **2. JF17K-4**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.823|0.770|0.860|0.922|
 |HJE|0.817|0.763|0.854|0.918|
 |Ours|**0.834**|**0.780**|**0.871**|**0.932**|
@@ -228,7 +229,7 @@ We are very grateful for all open-source baseline models:
 ### **3. WikiPeople-4**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.375|0.259|0.448|0.587|
 |HJE|0.321|0.195|0.390|0.576|
 |Ours|**0.410**|**0.289**|**0.481**|**0.639**|
@@ -236,7 +237,30 @@ We are very grateful for all open-source baseline models:
 ### **4. JF17K-5**
 | | | | | |
 |-|-|-|-|-|
-|MODEL|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
+|**Model**|**MRR**|**Hit@1**|**Hit@3**|**Hit@10**|
 |HyConvE|0.791|0.722|0.873|0.930|
 |HJE|0.870|0.802|0.925|0.979|
 |Ours|**0.887**|**0.828**|**0.941**|**0.985**|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
