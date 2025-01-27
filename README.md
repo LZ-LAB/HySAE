@@ -1,6 +1,7 @@
 # The HySAE Model
 This paper has been submitted to The Web Conference 2025 (WWW 2025).
 
+All local experiments were obtained on 4 NVIDIA GeForce RTX 3090 GPUs and PyTorch 1.12.0
 
 
 ## Requirements
